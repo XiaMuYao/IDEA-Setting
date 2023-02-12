@@ -1,0 +1,15 @@
+<templateSet group="Kotlin">
+  <template name="sta" value="companion object {&#10;    fun start(context:android.content.Context){&#10;        val starter = Intent(context,$ACTIVITY$::class.java)&#10;        // starter.putExtra($CURSOR$)&#10;        context.startActivity(starter)&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTIVITY" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="staf" value="companion object {&#10;    fun newInstance(): $FRAGMENT$ {&#10;        val fragment = $FRAGMENT$()&#10;        fragment.arguments = bundleOf().apply {&#10;              &#10;        }&#10;        return $FRAGMENT$()&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FRAGMENT" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

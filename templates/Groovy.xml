@@ -1,0 +1,7 @@
+<templateSet group="Groovy">
+  <template name="zhongguodaili" value="        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }&#10;        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }&#10;        jcenter()&#10;        maven { url &quot;https://jitpack.io&quot; }&#10;        google()" description="中国代理" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
