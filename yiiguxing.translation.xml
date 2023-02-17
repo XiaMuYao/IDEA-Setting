@@ -14,11 +14,13 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Scalar arrays" />
       <item value="get Banner" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="1" />
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="2" />
       </map>
     </option>
   </component>
