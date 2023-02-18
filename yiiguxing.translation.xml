@@ -9,9 +9,12 @@
       </app-key>
     </option>
     <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="BAIDU" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Frame Layout" />
+      <item value="Push object to the right of its container, not changing its size. --" />
       <item value="he following typesformats are supported: - Instances of Dependency. - String or CharSequence values, for example 'org.gradle:gradle-core:1.0'. - Maps, for example [group: 'org.gradle', name: 'gradle-core', version: '1.0']. - FileCollections, for example files('some.jar', 'someOther.jar'). - Projects, for example project(':some:project:path'). - ClassPathNotation, for example gradleApi()." />
       <item value="e following typesformats are supported: - Instances of Dependency. - String or CharSequence values, for example 'org.gradle:gradle-core:1.0'. - Maps, for example [group: 'org.gradle', name: 'gradle-core', version: '1.0']. - FileCollections, for example files('some.jar', 'someOther.jar'). - Projects, for example project(':some:project:path'). - ClassPathNotation, for example gradleApi()." />
       <item value="reference" />
