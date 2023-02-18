@@ -6,7 +6,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="staf" value="companion object {&#10;    fun newInstance(): $FRAGMENT$ {&#10;        val fragment = $FRAGMENT$()&#10;        fragment.arguments = bundleOf().apply {&#10;              &#10;        }&#10;        return $FRAGMENT$()&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="staf" value="companion object {&#10;    fun newInstance(): $FRAGMENT$ {&#10;//        val fragment = $FRAGMENT$()&#10;//       fragment.arguments = bundleOf().apply {&#10;//             &#10;//       }&#10;        return $FRAGMENT$()&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="FRAGMENT" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
